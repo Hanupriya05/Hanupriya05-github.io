@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 2, 91);
+    color: white;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+.nav-link{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    gap:25px;
+    list-style: none;
+    
+}
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sectionleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 4px;
+    gap: 25px;
+}
+.sectionright img{
+        width: 400px;
+        height: auto;
+
+}
+section{
+    background-color: rgb(226, 240, 241);
+}
+
+.left h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+
+}
+.left p{
+    margin-bottom: 30px;
+
+}
+.first{
+    padding: 18px 22px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+button:hoven{
+    background-color: rgb(3, 3, 241);
+}
+.left{
+    width: 500px;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 40px 20px;
+    gap: 20px;
+    text-align: center;
+
+
+}
+.features{
+    flex: 1 1 250px;
+    background-color: rgb(211, 237, 240);
+    padding: 80x 20px;
+    border-radius: 10px;
+    width: 40px;
+    height: 100px;
+}
+.product-container{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 20px 20px;
+    gap: 30px;
+    margin: 30px;
+    justify-content: center;
+    
+    
+    
+}
+.product-gallery{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(198, 196, 196);
+}
+.product-card{
+    width: 250px;
+    height: 280px;
+    border: 1px whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 20px;
+ 
+}
+.product-card:hover{
+    transform: translateY(2,1);
+    border: 2px solid grey;
+}
+.blue{
+    text-align: center;
+    background-color:rgb(139, 196, 216) ;
+    color: white;
+
+    padding: 20px;
+}
+#email{
+    border-radius: 5px;
+    width: 180px;
+    height: 30px;
+}
+
+button{
+  
+  background-color: darkblue;
+    color: white;
+  width: 120px;
+  padding: 5px;
+}
+    
+
+footer{
+    text-align: center;
+    background-color: rgb(2, 2, 91);
+    color: white;
+    padding: 10px;
+}
